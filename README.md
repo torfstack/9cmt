@@ -1,6 +1,6 @@
 # 9cmt - 9gag comment extractor
 
-##Usage
+## Usage
 ```
 python 9cmt.py -g <gagid> -c <#comments> -p <outputfilepath>
 ===
@@ -9,6 +9,7 @@ gagid: 9gag.com/gag/<gagid>
 outputfilepath: file to write the comments in (default: comments.txt)
 ```
 
-##Notes
-Comments that contain links are removed
+## Notes
+- Comments that contain links are removed
+- Uses python validators package ```pip install validators```
 
